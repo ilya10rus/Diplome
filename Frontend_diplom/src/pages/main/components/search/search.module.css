@@ -1,0 +1,18 @@
+.search_container {
+	display: flex;
+	position: relative;
+	margin-top: 80px;
+}
+input {
+	width: 270px;
+	height: 25px;
+	font-size: 18px;
+	padding-right: 30px;
+}
+
+.search_container i {
+	display: flex;
+	position: absolute;
+	top: 7px;
+	left: 285px;
+}

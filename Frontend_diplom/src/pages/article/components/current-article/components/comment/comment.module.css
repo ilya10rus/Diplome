@@ -1,0 +1,38 @@
+.container_comment {
+	display: flex;
+	margin-top: 10px;
+	text-align: justify;
+}
+
+.comment {
+	width: 532px;
+	padding: 5px 10px;
+	border: 1px solid #696868;
+	background-color: #cfcece;
+}
+
+.information_panel {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+.information_panel i {
+	margin-right: 5px;
+}
+
+.author {
+	display: flex;
+	font-weight: bold;
+}
+
+.published_at {
+	display: flex;
+	font-weight: bold;
+}
+.btn_delete_comment i {
+	margin-left: 10px;
+	cursor: pointer;
+}
+.btn_delete_comment i:hover {
+	color: #eb8c4d;
+}

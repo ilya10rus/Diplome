@@ -1,0 +1,26 @@
+.container_comments {
+	margin: 20px auto;
+	width: 580px;
+}
+.new_comment {
+	display: flex;
+	width: 100%;
+	margin: 20px 0 0;
+}
+
+.new_comment textarea {
+	background-color: #cfcece;
+	width: 550px;
+	resize: none;
+	height: 120px;
+	font-size: 18px;
+}
+
+.btn_add_comment i {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.btn_add_comment i:hover {
+	color: #eb8c4d;
+}

@@ -1,0 +1,23 @@
+table {
+	border: 1px solid #fff;
+	background-color: rgba(223, 223, 223, 0.7);
+	margin-bottom: 60px;
+}
+table td {
+	text-align: center;
+	border: 1px solid #fff;
+	padding: 10px;
+}
+table th {
+	border: 1px solid #fff;
+	padding: 10px;
+}
+.btns button {
+	border-radius: 5px;
+	width: 100px;
+	margin: 5px;
+	cursor: pointer;
+}
+.btns button:hover {
+	background-color: #eb8c4d;
+}

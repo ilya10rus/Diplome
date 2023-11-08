@@ -1,0 +1,32 @@
+.articles_container_about_repairs {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+
+.articles_list {
+	grid-template-columns: 1fr 1fr 1fr;
+	display: grid;
+	width: 1010px;
+	height: 540px;
+	margin-top: 25px;
+	position: relative;
+}
+.not_found {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 50px;
+}
+.pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.container_loader {
+	display: flex;
+	align-items: center;
+	min-height: 80vh;
+	justify-content: center;
+}

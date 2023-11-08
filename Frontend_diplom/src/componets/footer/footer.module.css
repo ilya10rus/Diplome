@@ -1,0 +1,27 @@
+.footer_container {
+	padding: 0;
+	background: rgba(223, 223, 223, 0.9);
+	color: #fff;
+	display: flex;
+	width: 100vw;
+	min-height: 50px;
+	align-items: center;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	z-index: 99;
+}
+
+.footer_container span {
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer_container a {
+	text-decoration: none;
+	color: #eb8c4d;
+	font-weight: bold;
+}

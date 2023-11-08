@@ -1,0 +1,154 @@
+.control_panel_container {
+	background: rgba(223, 223, 223, 0.9);
+	color: #fff;
+	display: flex;
+	width: 100%;
+	min-height: 50px;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+	top: 0;
+}
+
+.admin_panel_is_active {
+	display: flex;
+	color: #fff;
+	position: relative;
+}
+
+.admin_panel_is_active a {
+	padding-top: 2px;
+	margin-left: 30px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.admin_panel_is_active a:hover {
+	color: #eb8c4d;
+}
+
+nav a:last-child {
+	margin-right: calc(100vw - 450px);
+}
+
+.admin_panel_is_not_active {
+	font-weight: bold;
+	font-size: 20px;
+	color: #eb8c4d;
+}
+
+.admin_panel_is_not_active span {
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	margin-right: calc(100vw - 490px);
+}
+
+.btn_authorization {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(223, 223, 223, 0.5);
+	color: #fff;
+	text-decoration: none;
+	border-left: 2px solid #fff;
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.btn_authorization:hover {
+	color: #eb8c4d;
+}
+
+.btn_back {
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn_back:hover {
+	color: #eb8c4d;
+}
+
+.btn_home {
+	text-decoration: none;
+	font-size: 30px;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.btn_home:hover {
+	color: #eb8c4d;
+}
+
+.user_name {
+	display: flex;
+}
+
+.user_name i {
+	margin: 0 10px;
+}
+.logout {
+	color: #fff;
+}
+.logout i:hover {
+	color: #eb8c4d;
+	cursor: pointer;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+	margin: 0px -7px 0 0;
+	display: inline-block;
+}
+nav span {
+	display: block;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+nav a {
+	display: block;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav span:hover {
+	background-color: rgba(223, 223, 223, 0.5);
+	color: #eb8c4d;
+}
+nav a:hover {
+	background-color: rgba(223, 223, 223, 0.5);
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+nav ul li:hover > ul {
+	display: inherit;
+}
+nav ul ul li {
+	min-width: 170px;
+	float: none;
+	display: list-item;
+	position: relative;
+}

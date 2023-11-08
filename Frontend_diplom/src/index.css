@@ -1,0 +1,11 @@
+@import url("fonts/font-awesome.css");
+body {
+	background-image: url("../public/backgound.jpg");
+	background-repeat: no-repeat fixed;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New", Courier, monospace;
+	position: relative;
+	background-attachment: fixed;
+}

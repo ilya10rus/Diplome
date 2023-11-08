@@ -1,0 +1,68 @@
+.authorization_container {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.authorization_form {
+	background-color: rgba(223, 223, 223, 0.7);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	border: 2px solid #000000;
+	min-height: 350px;
+	min-width: 400px;
+	/*margin-top: 8vh;*/
+	border-radius: 5px;
+	justify-content: center;
+}
+
+.authorization_form form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.authorization_form form input {
+	margin-top: 20px;
+	width: 300px;
+	height: 30px;
+	font-size: 18px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.authorization_form a {
+	text-decoration: none;
+	color: #000000;
+	margin-top: 10px;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.authorization_form a:hover {
+	color: #eb8c4d;
+}
+
+.authorization_form form button {
+	border-radius: 5px;
+	margin-top: 30px;
+	width: 310px;
+	height: 35px;
+	cursor: pointer;
+	background: #8e9ca1;
+	font-size: 18px;
+}
+
+.authorization_form form button:hover {
+	background: #eb8c4d;
+}
+
+.auth_form_error {
+	background-color: #eb8c4d;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0 0;
+	padding: 10px;
+}
